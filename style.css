@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#nav-bar{
+   display: flex;
+	 position: fixed;
+	 top:0;
+}
+#nav-bar a{
+	text-decoration: none;
+	padding: 10px;
+	font-size: 24px;
+
+}
+
+#video{
+	
+	width: 40%;
+	margin: 0 auto;
+
+}
+
+@media screen and (max-width: 480px) {
+
+  #nav-bar{
+  	display: grid;
+  }
+}
